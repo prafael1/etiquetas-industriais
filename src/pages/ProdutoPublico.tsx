@@ -205,7 +205,6 @@ function ProdutoPublico() {
                   {/* Imagem */}
                   <img
                     src={fotoAtiva}
-                    alt={produto.nome}
                     className="w-full h-full object-contain transition-transform duration-200"
                     style={{
                       transform: zoom
